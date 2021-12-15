@@ -8,24 +8,22 @@ summary: >-
 
   #### Overview and comparison of merits and demerits of Quantum Machine Learning and Federated Learning.
 draft: false
-authors:
-  - admin
-  - 吳恩達
+authors: []
 lastmod: 2020-12-13T00:00:00.000Z
 title: "My Take On: Quantum Machine Learning vs Federated Learning"
 subtitle: Overview and comparison of merits and demerits of Quantum Machine
   Learning and Federated Learning
 date: 2020-12-13T00:00:00.000Z
 featured: false
-tags:
-  - Academic
-  - 开源
+tags: []
 categories:
-  - Demo
-  - 教程
+  - FederatedLearnning
+  - QuantumMachineLearning
+  - QuantumComputing
+  - MachineLearning
 projects: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
+  caption: ""
   focal_point: ""
   placement: 2
   preview_only: false
