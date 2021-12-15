@@ -7,8 +7,8 @@ publication: Applications of Artificial Intelligence Techniques in Engineering,
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: ""
   focal_point: Smart
   preview_only: false
-date: 2021-12-15T19:55:41.904Z
+date: 2018-09-18T19:55:00.000Z
 ---
