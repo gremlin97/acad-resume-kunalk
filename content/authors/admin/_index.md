@@ -14,7 +14,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: kasodekarsunil@gmail.com
+    link: /#Contact
   - icon: github
     icon_pack: fab
     link: https://github.com/gremlin97
