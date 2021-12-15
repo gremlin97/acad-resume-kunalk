@@ -1,6 +1,6 @@
 ---
 role: Senior Software Engineer
-avatar_filename: https://media-exp1.licdn.com/dms/image/C5103AQFZ2xfX4WizJw/profile-displayphoto-shrink_800_800/0/1578993964959?e=1645056000&v=beta&t=Wqn8W7Mp7NoNEuKF7FewccG6noJ8kxY4F2CAdx2WMhg
+avatar_filename: img_20191231_082841_041_small.jpg
 bio: My research interests include Quantum Machine Learning, Interpreatable and
   Explainable AI/ML, Blockchain, Vision, Deep Learning and Blockchain
 interests:
