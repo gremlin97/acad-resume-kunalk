@@ -46,4 +46,4 @@ highlight_name: true
 title: Kunal Kasodekar
 email: ""
 ---
-Working as a **Senior Software Engineer** in Wipro's **CTO Office** division responsible for conducting R&D on *emerging technologies*. Worked for the **Blockchain and Quantum Research Team** to find innovative solutions to various problems using Blockchain and AI/ML and explore viable applications of Quantum computing to create quantum-inspired solutions for relevant industry use-cases. Currently, working with CREATE Labs whose goal is to create a Co-Innovation ecosystem for experimenting with disruptive tech with a rapid prototyping based approach.
+Working as a **Senior Software Engineer** in Wipro's **CTO Office** division responsible for conducting R&D on emerging technologies. Worked for the **Blockchain and Quantum Research Team** to find innovative solutions to various problems using Blockchain and AI/ML and explore viable applications of Quantum computing to create quantum-inspired solutions for relevant industry use-cases. Currently, working with **CREATE Labs** whose goal is to create a Co-Innovation ecosystem for experimenting with disruptive tech with a rapid prototyping based approach.
