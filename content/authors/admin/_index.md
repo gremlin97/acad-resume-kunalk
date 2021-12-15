@@ -29,6 +29,8 @@ education:
     - institution: Vellore Institute of Technology (Chennai)
       year: 2019
       course: Bachelor of Technology in Computer Science and Engineering
+    - institution: Fergusson College
+      course: HSC, Science (PCMB)
 superuser: true
 highlight_name: true
 title: Kunal Kasodekar
