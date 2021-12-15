@@ -1,11 +1,16 @@
 ---
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+role: Senior Software Engineer
+avatar_filename: ""
+bio: My research interests include Quantum Machine Learning, Interpreatable and
+  Explainable AI/ML, Blockchain, Vision, Deep Learning and Blockchain
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - QML
+  - XAI
+  - Blockchain
+  - ML/DL
+  - Vision
+  - Edge
+  - IncrementalLearning
 social:
   - icon: envelope
     icon_pack: fas
@@ -41,9 +46,4 @@ highlight_name: true
 title: Kunal Kasodekar
 email: ""
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Working as a **Senior Software Engineer** in Wipro's **CTO Office** division responsible for conducting R&D on *emerging technologies*. Worked for the **Blockchain and Quantum Research Team** to find innovative solutions to various problems using Blockchain and AI/ML and explore viable applications of Quantum computing to create quantum-inspired solutions for relevant industry use-cases. Currently, working with CREATE Labs whose goal is to create a Co-Innovation ecosystem for experimenting with disruptive tech with a rapid prototyping based approach.
