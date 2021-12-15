@@ -14,36 +14,24 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: /#contact
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: kasodekarsunil@gmail.com
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/gremlin97
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/kunalkas/
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Wipro Limited
+    url: https://www.wipro.com/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - institution: Vellore Institute of Technology (Chennai)
+      year: 2019
+      course: Bachelor of Technology in Computer Science and Engineering
 superuser: true
 highlight_name: true
 title: Kunal Kasodekar
-email: ""
+email: kasodekarsunil@gmail.com
 ---
 Working as a **Senior Software Engineer** in Wipro's **CTO Office** division responsible for conducting R&D on emerging technologies. Worked for the **Blockchain and Quantum Research Team** to find innovative solutions to various problems using Blockchain and AI/ML and explored viable applications of Quantum computing to create quantum-inspired solutions for relevant industry use-cases. Currently, working with **CREATE Labs** whose goal is to create a Co-Innovation ecosystem for experimenting with disruptive tech with a rapid prototyping based approach.
