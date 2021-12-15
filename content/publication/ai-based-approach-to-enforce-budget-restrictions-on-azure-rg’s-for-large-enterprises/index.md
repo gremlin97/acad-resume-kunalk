@@ -6,7 +6,7 @@ publication_types:
   - "1"
 publication: Proceedings of the Software Product Management Summit India 2021
 draft: false
-featured: false
+featured: true
 image:
   filename: ""
   focal_point: Smart
