@@ -1,12 +1,6 @@
 ---
-summary: >-
-  #### My Take On
-
-
-  ### Quantum Machine Learning vs Federated Learning
-
-
-  #### Overview and comparison of merits and demerits of Quantum Machine Learning and Federated Learning.
+summary: Overview and comparison of merits and demerits of Quantum Machine
+  Learning and Federated Learning.
 draft: false
 authors: []
 lastmod: 2020-12-13T00:00:00.000Z
