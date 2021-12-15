@@ -1,16 +1,20 @@
 ---
-summary: "**A look into QML:**
-  https://kunal-kasodekar.medium.com/a-look-into-quantum-machine-learning-f1c88\
-  3c1a056"
+summary: >-
+  #### My Take On
+
+
+  ### Quantum Machine Learning vs Federated Learning
+
+
+  #### Overview and comparison of merits and demerits of Quantum Machine Learning and Federated Learning.
 draft: false
 authors:
   - admin
   - 吳恩達
 lastmod: 2020-12-13T00:00:00.000Z
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've
-  populated your new site with some initial content to help you get familiar
-  with everything in no time.
+title: "My Take On: Quantum Machine Learning vs Federated Learning"
+subtitle: Overview and comparison of merits and demerits of Quantum Machine
+  Learning and Federated Learning
 date: 2020-12-13T00:00:00.000Z
 featured: false
 tags:
@@ -26,21 +30,7 @@ image:
   placement: 2
   preview_only: false
 ---
-## My Take On
 
-# Quantum Machine Learning vs Federated Learning
-
-## Overview and comparison of merits and demerits of Quantum Machine Learning and Federated Learning.
-
-[![Kunal Kasodekar](https://miro.medium.com/fit/c/56/56/1*yn02RJjV3qfVhtjMV4t0Hg.jpeg)](https://medium.com/?source=post_page-----66430207214-----------------------------------)[
-
-Kunal Kasodekar
-
-](https://medium.com/?source=post_page-----66430207214-----------------------------------)[
-
-Nov 10, 2020·11 min read
-
-](https://medium.com/quantum-machine-learning-vs-federated-learning-66430207214?source=post_page-----66430207214-----------------------------------)
 
 ![](https://miro.medium.com/max/2000/1*BAQgdaXXUKSPE0iw4Kso9Q.jpeg)
 
@@ -94,7 +84,7 @@ Deep learning (DL) models make use of highly dense neural networks with multiple
 
 ***Federated Learning to the rescue***: Federated learning (FL) can solve all these problems! But how? Let’s see how it solves each of these problems. In Federated learning a federation of nodes act as local computing devices (any edge computing device) to train a model. The data is locally available in these edge devices in the form of user data/time series etc. The parameter server (main server ) has the model to be trained. Initially, it is pretrained with some data. Then this model is sent by the server to a subset of participating devices. This subset is optimally selected to prevent any data bias/misrepresentation. Once the local node receives a model it uses its computing power to train the model for a few iterations. As discussed earlier a deep learning model is trained using various parameters also called weights. These weights are tuned to give a model with a minimum error while prediction. Once trained all the nodes send back the model to the parameter server in the form of weight updates. Rather than sending a full-blown model, the nodes sends back the weights changes that serve the same purpose as an updated model. Once all the weight updates are received a federated average is taken at the server which simply means that a weighted average of all the updated coefficients is taken where updates from nodes with higher data points are given preference. This federated average is then used to update the main model. However, our goal is to converge towards a model with weights resulting in minimum error while prediction. Thus after each iteration of federated averaging the models are sent back to the nodes for further training (similar to mini-batch gradient descent). Thus after a large number of iterations, we reach convergence. During training devices that have communication issues/drop off from the process can be replaced with different nodes. This way data privacy is maintained as no data transfer takes place whilst computing a distributed model update with very less power consumption for the main server \[5].
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*uGnSKcv\_uZCpndIrfHmPKg.png" width="700" height="1109" srcSet="https://miro.medium.com/max/552/1\\*uGnSKcv\_uZCpndIrfHmPKg.png 276w, https://miro.medium.com/max/1104/1\\*uGnSKcv\_uZCpndIrfHmPKg.png 552w, https://miro.medium.com/max/1280/1\\*uGnSKcv\_uZCpndIrfHmPKg.png 640w, https://miro.medium.com/max/1400/1\*uGnSKcv\_uZCpndIrfHmPKg.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/2400/1\*uGnSKcv_uZCpndIrfHmPKg.png" width="700" height="1109" srcSet="https://miro.medium.com/max/552/1\\*uGnSKcv\_uZCpndIrfHmPKg.png 276w, https://miro.medium.com/max/1104/1\\*uGnSKcv\_uZCpndIrfHmPKg.png 552w, https://miro.medium.com/max/1280/1\\*uGnSKcv\_uZCpndIrfHmPKg.png 640w, https://miro.medium.com/max/1400/1\*uGnSKcv\_uZCpndIrfHmPKg.png 700w" sizes="700px" role="presentation"/>
 
 Steps in Federated Learning \[7]
 
