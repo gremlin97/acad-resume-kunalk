@@ -15,9 +15,9 @@ subtitle:
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-● Programming/Scripting Languages: Python, C, C++, Javascript, Golang
-● Framework and Tools: Qiskit, Ethereum, NodeJs, Git, Bootstrap, Flask, PyTorch, Latex, Pandas, Keras
-● Platforms: Azure, AWS, Docker
+Programming/Scripting Languages: Python, C, C++, Javascript, Golang
+Framework and Tools: Qiskit, Ethereum, NodeJs, Git, Bootstrap, Flask, PyTorch, Latex, Pandas, Keras
+Platforms: Azure, AWS, Docker
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
