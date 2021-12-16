@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: dark
+theme: apogee
 day_night: true
-font: 'dark'
+font: 'apogee'
 font_size: L
 
 # SEO
