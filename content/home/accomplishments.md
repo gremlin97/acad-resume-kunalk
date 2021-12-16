@@ -31,38 +31,6 @@ item:
   organization_url: https://www.linkedin.com/company/ibm/
   title: IBM Certified Associate Developer - Quantum Computation using Qiskit v0.2X
   url: ""
-- certificate_url: https://www.credly.com/badges/e84bba62-a827-48f9-af44-5c626e646026?source=linked_in_profile
-  date_end: ""
-  date_start: "2021-06-12"
-  description: 
-  organization: IBM
-  organization_url: https://www.linkedin.com/company/ibm/
-  title: IBM Quantum Challenge 2021 Achievement - Advanced
-  url: ""
-- certificate_url: https://confirm.udacity.com/NKR6GUTQ
-  date_end: ""
-  date_start: "2021-08-1"
-  description: ""
-  organization: Udacity
-  organization_url: https://www.linkedin.com/school/udacity/
-  title: Blockchain Developer Nanodegree
-  url: ""
-- certificate_url: 
-  date_end: "2021-07-23"
-  date_start: "2021-07-12"
-  description: "Certificate of Quantum Excellence, Quantum Computing, Quantum Machine Learning "
-  organization: Qiskit
-  organization_url: https://qiskit.org/
-  title: 2021 Qiskit Global Summer School on Quantum Machine Learning
-  url: ""
-- certificate_url: 
-  date_end: "2021-05-1"
-  date_start: "2020-10-1"
-  description: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course"
-  organization: The Coding School
-  organization_url: https://www.linkedin.com/school/the-coding-school/
-  title: 2021 Qiskit Global Summer School on Quantum Machine Learning
-  url: ""
 
 design:
   columns: '2' 
