@@ -7,7 +7,7 @@
 
 theme: cyberpunk
 day_night: false
-light: false
+day: false
 font: 'cyberpunk'
 font_size: L
 
