@@ -15,7 +15,7 @@ subtitle = ""
 | C  | Ethereum  | AWS  |
 | C++  | NodeJs  | Docker  |
 | Javascript  | Git  | PyTorch  |
-| Golang | -  | Bootstrap  |
+| Golang |   | Bootstrap  |
 |   |   | Flask  |
 |   |   | Pandas  |
 |   |   | Latex  |
