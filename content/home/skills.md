@@ -14,9 +14,9 @@ subtitle = ""
 | Python  | Qiskit  | Azure  |
 | C  | Ethereum  | AWS  |
 | C++  | NodeJs  | Docker  |
-| Javascript  | Git  | PyTorch  |
-| Golang |   | Bootstrap  |
-|   |   | Flask  |
-|   |   | Pandas  |
-|   |   | Latex  |
-|   |   | Keras  |
+| Javascript  | Git  |  |
+| Golang | PyTorch  | Bootstrap  |
+|   | Flask  |  |
+|   | Pandas  |  |
+|   | Latex  |  |
+|   | Keras  |  |
