@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: minimal
+theme: cyberpunk
 day_night: false
 light: false
-font: ''
+font: 'cyberpunk'
 font_size: L
 
 # SEO
