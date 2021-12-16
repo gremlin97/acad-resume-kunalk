@@ -47,6 +47,22 @@ item:
   organization_url: https://www.linkedin.com/school/udacity/
   title: Blockchain Developer Nanodegree
   url: ""
+- certificate_url: 
+  date_end: "2021-07-23"
+  date_start: "2021-07-12"
+  description: "Certificate of Quantum Excellence, Quantum Computing, Quantum Machine Learning "
+  organization: Qiskit
+  organization_url: https://qiskit.org/
+  title: 2021 Qiskit Global Summer School on Quantum Machine Learning
+  url: ""
+- certificate_url: 
+  date_end: "2021-05-01"
+  date_start: "2020-10-01"
+  description: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course"
+  organization: The Coding School
+  organization_url: https://www.linkedin.com/school/the-coding-school/
+  title: 2021 Qiskit Global Summer School on Quantum Machine Learning
+  url: ""
 
 design:
   columns: '2' 
