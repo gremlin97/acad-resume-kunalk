@@ -5,10 +5,9 @@
 
 # Appearance
 
-theme: mrrobot
-day_night: false
-day: false
-font: 'mrrobot'
+theme: dark
+day_night: true
+font: 'dark'
 font_size: L
 
 # SEO
