@@ -25,7 +25,7 @@ experience:
   - title: Senior Software Engineer
     company: Wipro Limited
     company_url: ''
-    company_logo: 
+    company_logo: Wipro.svg
     location: Bengaluru, India
     date_start: '2019-07-31'
     date_end: ''
@@ -38,7 +38,7 @@ experience:
   - title: App Developer Intern
     company: iWork Technologies Pvt.Ltd
     company_url: ''
-    company_logo: 
+    company_logo: iw.svg
     location: Pune, India
     date_start: '2016-05-01'
     date_end: '2020-07-01'
