@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: earth
+theme: coffee
 day_night: true
-font: 'earth'
+font: 'coffee'
 font_size: L
 
 # SEO
