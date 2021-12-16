@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: cyberpunk
+theme: mrrobot
 day_night: false
 day: false
-font: 'cyberpunk'
+font: 'mrrobot'
 font_size: L
 
 # SEO
