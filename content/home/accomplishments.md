@@ -36,7 +36,7 @@ item:
   date_start: "2021-06-12"
   description: 
   organization: IBM
-  organization_url:  https://www.linkedin.com/company/ibm/
+  organization_url: https://www.linkedin.com/company/ibm/
   title: IBM Quantum Challenge 2021 Achievement - Advanced
   url: ""
 - certificate_url: https://confirm.udacity.com/NKR6GUTQ
