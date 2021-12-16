@@ -1,36 +1,25 @@
----
-# An instance of the Featurette widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: featurette
++++
+# A Skills section created with the Featurette widget.
+widget = "custom"
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 50  # Order that this section will appear.
 
-# This file represents a page section.
-headless: true
+title = "Skills"
+subtitle = ""
++++
 
-# Order that this section appears on the page.
-weight: 30
-
-title: Skills
-subtitle:
-
-# Showcase personal skills or business features.
-# - Add/remove as many `feature` blocks below as you like.
-# - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-Programming/Scripting Languages: Python, C, C++, Javascript, Golang
-Framework and Tools: Qiskit, Ethereum, NodeJs, Git, Bootstrap, Flask, PyTorch, Latex, Pandas, Keras
-Platforms: Azure, AWS, Docker
-
-# Uncomment to use emoji icons.
-#- icon: ":smile:"
-#  icon_pack: "emoji"
-#  name: "Emojiness"
-#  description: "100%"  
-
-# Uncomment to use custom SVG icons.
-# Place your custom SVG icon in `assets/media/icons/`.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
-#- icon: "your-custom-icon-name"
-#  icon_pack: "custom"
-#  name: "Surfing"
-#  description: "90%"
----
+| Programming/Scripting Languages   | Framework and Tools  | Platforms  |
+|---|---|---|
+| Python  | Qiskit  | Azure  |
+| C  | Ethereum  | AWS  |
+| C++  | NodeJs  | Docker  |
+| Javascript  | Git  | -  |
+| Golang | -  | Bootstrap  |
+| Javascript  | Git  | -  |
+| -  | -  | Bootstrap  |
+| -  | -  | Flask  |
+| -  | -  | PyTorch  |
+| -  | -  | Pandas  |
+| -  | -  | Latex  |
+| -  | -  | Keras  |
