@@ -22,28 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Senior Software Engineer
+    company: Wipro Limited
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo: org-wp
+    location: Bengaluru
+    date_start: '2019-07-31'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        Teams:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Blockchain and Quantum Research CTO Office
+        * CREATE Labs
         
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: App Developer Intern
+    company: iWork Technologies Pvt.Ltd
     company_url: ''
-    company_logo: org-x
+    company_logo: org-iw
     location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    date_start: '2016-05-01'
+    date_end: '2020-7-01'
+    description: Developed a Xamarin Application and Web API for Rating Drivers as a parameter for consideration during Insurance Claims.
 
 design:
   columns: '2'
