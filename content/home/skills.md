@@ -16,7 +16,7 @@ subtitle = ""
 | C++  | NodeJs  | Docker  |
 | Javascript  | Git  | PyTorch  |
 | Golang | -  | Bootstrap  |
-| -  | -  | Flask  |
-| -  | -  | Pandas  |
-| -  | -  | Latex  |
-| -  | -  | Keras  |
+|   |   | Flask  |
+|   |   | Pandas  |
+|   |   | Latex  |
+|   |   | Keras  |
