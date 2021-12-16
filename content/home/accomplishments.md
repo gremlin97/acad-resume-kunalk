@@ -31,6 +31,22 @@ item:
   organization_url: https://www.linkedin.com/company/ibm/
   title: IBM Certified Associate Developer - Quantum Computation using Qiskit v0.2X
   url: ""
+- certificate_url: https://www.credly.com/badges/e84bba62-a827-48f9-af44-5c626e646026?source=linked_in_profile
+  date_end: ""
+  date_start: "2021-06-12"
+  description: 
+  organization: IBM
+  organization_url: https://www.linkedin.com/company/ibm/
+  title: IBM Quantum Challenge 2021 Achievement - Advanced
+  url: ""
+- certificate_url: https://confirm.udacity.com/NKR6GUTQ
+  date_end: ""
+  date_start: "2021-08-1"
+  description: ""
+  organization: Udacity
+  organization_url: https://www.linkedin.com/school/udacity/
+  title: Blockchain Developer Nanodegree
+  url: ""
 
 design:
   columns: '2' 
