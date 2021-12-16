@@ -5,7 +5,7 @@
 
 title: Kunal Kasodekar # Website name
 baseurl: 'https://kunalkasodekar.netlify.app/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '&copy;{year} Kunal Kasodekar' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
