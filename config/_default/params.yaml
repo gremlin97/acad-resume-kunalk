@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: rose
+theme: ocean
 day_night: true
-font: 'rose'
+font: 'ocean'
 font_size: L
 
 # SEO
