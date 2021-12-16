@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: 1950s
+theme: cyberpunk
 day_night: true
-font: '1950s'
+font: 'cyberpunk'
 font_size: L
 
 # SEO
