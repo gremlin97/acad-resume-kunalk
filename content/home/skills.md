@@ -9,7 +9,7 @@ title = "Skills"
 subtitle = ""
 +++
 
-| Programming/Scripting Languages   | Framework and Tools  | Platforms  |
+| Programming Languages   | Framework and Tools  | Platforms  |
 |---|---|---|
 | Python  | Qiskit  | Azure  |
 | C  | Ethereum  | AWS  |
