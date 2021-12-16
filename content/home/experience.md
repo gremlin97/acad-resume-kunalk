@@ -26,7 +26,7 @@ experience:
     company: Wipro Limited
     company_url: ''
     company_logo: 
-    location: Bengaluru
+    location: Bengaluru, India
     date_start: '2019-07-31'
     date_end: ''
     description: |2-
@@ -39,9 +39,9 @@ experience:
     company: iWork Technologies Pvt.Ltd
     company_url: ''
     company_logo: 
-    location: California
+    location: Pune, India
     date_start: '2016-05-01'
-    date_end: '2020-7-01'
+    date_end: '2020-07-01'
     description: Developed a Xamarin Application and Web API for Rating Drivers as a parameter for consideration during Insurance Claims.
 
 design:
