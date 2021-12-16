@@ -41,7 +41,7 @@ item:
   url: ""
 - certificate_url: https://confirm.udacity.com/NKR6GUTQ
   date_end: ""
-  date_start: "2021-08-1"
+  date_start: "2021-08-01"
   description: ""
   organization: Udacity
   organization_url: https://www.linkedin.com/school/udacity/
