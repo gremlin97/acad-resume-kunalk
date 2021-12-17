@@ -21,6 +21,11 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/kunalkas/
+  - display:
+      header: false
+    link: https://kunal-kasodekar.medium.com/
+    icon_pack: fab
+    icon: medium
 organizations:
   - name: Wipro Limited
     url: https://www.wipro.com/
