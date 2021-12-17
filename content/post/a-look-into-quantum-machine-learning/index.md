@@ -95,9 +95,9 @@ The aforementioned workflow does not allow us to vary the quantum operations, i.
 
 A Variational quantum circuit is a quantum algorithm whose measurement depends on a set of free parameters θ. The quantum algorithm being modeled has a set of expectation values (a scalar) for its input qubits. The free parameters are tuned iteratively to optimize a classical cost function and get an output approximating the expected values \[7]. These are actively used in quantum chemistry, feature embeddings, HHL (model to solve a linear system of equations), etc.
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1054/1\\\\*ICwHjoejvLgbb8vK\_EwMCQ.png" width="527" height="360" srcSet="https://miro.medium.com/max/552/1\\\\*ICwHjoejvLgbb8vK\_EwMCQ.png 276w, https://miro.medium.com/max/1054/1\*ICwHjoejvLgbb8vK\_EwMCQ.png 527w" sizes="527px" role="presentation"/>
+![](https://miro.medium.com/max/527/1*ICwHjoejvLgbb8vK_EwMCQ.png "Variational Quantum Circuit [13]")
 
-Variational Quantum Circuit \[13]
+
 
 The premise of using these circuits is that they can be used like ML models wherein we can map a set of data points to definite classes. Training is done by tuning the parameters using a co-processor based classical optimization approach. These circuits can be implemented on near term quantum computers as they often learn the correct variational parameters despite the noise in the circuit. We can think of variational quantum models as a hybrid-quantum classical approach that leverages the strength of quantum computing for feature extraction/representation and classical computation for co-processor based optimization \[5].
 
@@ -117,9 +117,9 @@ ML-based algorithms use gradient descent to minimize the cost function. Backprop
 
 > ∇ = 1/2( U(θ+x) - U(θ-x) )
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\\*MBylLKiAv6i8Si9KDcOu7Q.png" width="700" height="222" srcSet="https://miro.medium.com/max/552/1\\\\*MBylLKiAv6i8Si9KDcOu7Q.png 276w, https://miro.medium.com/max/1104/1\\\\*MBylLKiAv6i8Si9KDcOu7Q.png 552w, https://miro.medium.com/max/1280/1\\\\*MBylLKiAv6i8Si9KDcOu7Q.png 640w, https://miro.medium.com/max/1400/1\*MBylLKiAv6i8Si9KDcOu7Q.png 700w" sizes="700px" role="presentation"/>
+![](https://miro.medium.com/max/700/1*MBylLKiAv6i8Si9KDcOu7Q.png "Parameter Shift Rule \[14]")
 
-Parameter Shift Rule \[14]
+
 
 We can calculate this gradient without knowing the inner workings of the circuit. Once this gradient is calculated the optimization is carried out as usual. Variational models also suffer from the issue of barren plateaus. This area is currently under research and some of the solutions suggested are using a predefined parameter initialization or using a local cost function. Now that we have got an idea of the working and importance of variational circuits in QML, let’s look at some Variational architectures used in QML.
 
@@ -135,9 +135,9 @@ Support vector machine (SVM) is defined by Analytics Vidhya as follows \[10]:
 
 > “In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well”
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png" width="700" height="680" srcSet="https://miro.medium.com/max/552/1\\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 276w, https://miro.medium.com/max/1104/1\\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 552w, https://miro.medium.com/max/1280/1\\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 640w, https://miro.medium.com/max/1400/1\*n3f9Nm0vi-21-\_A0\_VJrdw.png 700w" sizes="700px" role="presentation"/>
+![](https://miro.medium.com/max/700/1*p88qKlN51yRBeYcOA1bGDg.png "SVM [16]")
 
-SVM \[16]
+
 
 The maximal margin hyperplane (boundary to separate data points according to classes) in a support vector machine implicitly depends on the inner product of the data points being classified. To segregate non-linear data SVM implicitly transforms the data points to a higher dimension where the data will be linearly separable. Explicitly transforming data to a higher dimension is computationally expensive/impossible. Rather than transforming the data points directly to a higher dimension, the kernel function uses the kernel trick to calculate the inner product of the data points in the higher dimension easily. This sum of inner products is used to find the non-linear boundary/hyperplane to separate the non-linear data.
 
@@ -147,15 +147,15 @@ The maximal margin hyperplane (boundary to separate data points according to cla
 
 During the data encoding/state preparation phase classical data is encoded into the quantum circuit using various algorithms. In angle encoding data is encoded as the angle of the rotation gates. This encoding essentially maps the classical data into a higher dimension of an exponentially large Hilbert space. Thus a linear gate can transform data in a non-linear fashion to a higher data plane. Thus encoding classical data into quantum states is considered a quantum feature map \[11].
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\\*6PIgMlLsky-f4pF9\_ShxrA.png" width="700" height="172" srcSet="https://miro.medium.com/max/552/1\\\\*6PIgMlLsky-f4pF9\_ShxrA.png 276w, https://miro.medium.com/max/1104/1\\\\*6PIgMlLsky-f4pF9\_ShxrA.png 552w, https://miro.medium.com/max/1280/1\\\\*6PIgMlLsky-f4pF9\_ShxrA.png 640w, https://miro.medium.com/max/1400/1\*6PIgMlLsky-f4pF9\_ShxrA.png 700w" sizes="700px" role="presentation"/>
+![](https://miro.medium.com/max/700/1*6PIgMlLsky-f4pF9_ShxrA.png "Data Embedding in Hilbert Space [17]")
 
-Data Embedding in Hilbert Space \[17]
+
 
 ## Quantum Kernel Function
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\\*S4JOQqpqEV4rNbnaZp2uPg.png" width="700" height="305" srcSet="https://miro.medium.com/max/552/1\\\\*S4JOQqpqEV4rNbnaZp2uPg.png 276w, https://miro.medium.com/max/1104/1\\\\*S4JOQqpqEV4rNbnaZp2uPg.png 552w, https://miro.medium.com/max/1280/1\\\\*S4JOQqpqEV4rNbnaZp2uPg.png 640w, https://miro.medium.com/max/1400/1\*S4JOQqpqEV4rNbnaZp2uPg.png 700w" sizes="700px" role="presentation"/>
+![](https://miro.medium.com/max/700/1*S4JOQqpqEV4rNbnaZp2uPg.png "Quantum Kernel [15]")
 
-Quantum Kernel \[15]
+
 
 In a Support Vector Machine, the maximal margin boundary is calculated implicitly using the kernel trick as mentioned above. Thus the most important step in SVM is calculating the sum of the inner products of the data points in a higher dimension by using the kernel trick, as once that is found we can calculate the hyperplane separating the non-linear data easily. We know that angle encoding creates a non-linear transformation to Hilbert space. So we can use a variational circuit to map this data in Hilbert space to the inner product of the data points, i.e we can train the variational circuit to map input data points to their inner product. Thus we are parameterizing the embedding function itself to create a variational circuit that outputs the inner-product of data points. Then classical optimization is carried out to minimize the loss in this mapping. SVM that uses this kernel is called a Quantum Enhanced SVM \[5].
 
@@ -163,9 +163,9 @@ In a Support Vector Machine, the maximal margin boundary is calculated implicitl
 
 Neural networks form the basis of many deep learning models. They enjoy widespread use in the industry and research. Creating quantum circuits analogous to Neural networks is a key step for progressing and finding the limits of Quantum Machine Learning. Below is the circuit diagram of a general design of a QNN circuit.
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\\*nmTr3o6Yk7oR6GzDlGFDDw.png" width="700" height="337" srcSet="https://miro.medium.com/max/552/1\\\\*nmTr3o6Yk7oR6GzDlGFDDw.png 276w, https://miro.medium.com/max/1104/1\\\\*nmTr3o6Yk7oR6GzDlGFDDw.png 552w, https://miro.medium.com/max/1280/1\\\\*nmTr3o6Yk7oR6GzDlGFDDw.png 640w, https://miro.medium.com/max/1400/1\*nmTr3o6Yk7oR6GzDlGFDDw.png 700w" sizes="700px" role="presentation"/>
+![](https://miro.medium.com/max/700/1*nmTr3o6Yk7oR6GzDlGFDDw.png "QNN General Architecture [18]")
 
-QNN General Architecture \[18]
+
 
 As we can see from the circuit, we have the starting states initialized to zero. Now we do state preparation where Quantum embedding is applied to encode classical data into a quantum circuit using angle encoding. In the next step, we perform a linear transformation which is equivalent to a weighted sum of the inputs in a feed-forward neural network (i.e it acts as a linear layer). Then for the last layer, after a series of linear operations, we perform a measurement gate to apply non-linearity to the circuit and measure the probabilistic scalar output. This operation is applied last as it is unnatural and not possible to apply a series of activation functions in between the linear transformations for a quantum circuit. Finally, the output is feed to a classical optimization circuit. It will iteratively calculate the loss, use gradient descent, update the parameters till a global minimum is reached \[12]. We have just gone through the basic design of a QNN Circuit.
 
@@ -173,9 +173,9 @@ As we can see from the circuit, we have the starting states initialized to zero.
 
 A Variational Quantum classifier can be thought of as a type of QNN although both terms are used interchangeably. The inherent architecture is same as the QNN. The goal of this QML model is to classify data points. Classical data is encoded using angle encoding. As discussed above this encoding maps the data to a higher-dimensional Hilbert space. Here it will be easier to separate the data. Then the variational circuit which is a set of linear layers is applied. Its goal is to create a hidden layer-based architecture that can map the data points in the Hilbert space to their respective classes. Initially, this mapping will be randomized but iteratively learned by the variational circuit.
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/832/1\\\\*Knn4dBh6U8VSAdkK8zWKDw.png" width="416" height="277" srcSet="https://miro.medium.com/max/552/1\\\\*Knn4dBh6U8VSAdkK8zWKDw.png 276w, https://miro.medium.com/max/832/1\*Knn4dBh6U8VSAdkK8zWKDw.png 416w" sizes="416px" role="presentation"/>
+![](https://miro.medium.com/max/416/1*Knn4dBh6U8VSAdkK8zWKDw.png "Variational Model Architecture [19]")
 
-Variational Model Architecture \[19]
+
 
 Various types of variational circuits can be used depending upon the problem/circuit to maximize the expressibility (Range of data that can be mapped) of the QNN. All of these have the same inherent structure wherein a set of rotation gates are applied to the qubits followed by an entanglement of all the qubits, and then by some more rotation gates. This circuit can be repeated to increase the depth of the neural network and increase the complexity of the transformations. The entanglements are acted upon to increase expressibility, complexity, and depth of the model using quantum properties. Finally, measurement is conducted to map the output probability distribution to a binary output class. This output is supplied to the classical optimization function to minimize the mapping loss and create a classification model \[5].
 
