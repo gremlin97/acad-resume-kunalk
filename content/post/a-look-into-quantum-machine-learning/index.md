@@ -1,5 +1,5 @@
 ---
-title: "BEGINNERS GUIDE ON: A Look Into Quantum Machine Learning"
+title: "Beginners Guide On: A Look Into Quantum Machine Learning"
 subtitle: A simple overview on the current state of Quantum Machine Learning.
 date: 2021-12-17T07:43:10.872Z
 draft: false
