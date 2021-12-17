@@ -1,5 +1,5 @@
 ---
-title: A Look Into Quantum Machine Learning
+title: "BEGINNERS GUIDE ON: A Look Into Quantum Machine Learning"
 subtitle: A simple overview on the current state of Quantum Machine Learning.
 date: 2021-12-17T07:43:10.872Z
 draft: false
@@ -17,10 +17,6 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-
-
-
-
 ![](https://miro.medium.com/max/1000/1*Xe9MsTsh4gxnfiUyo1KloQ.jpeg)
 
 # **State of Quantum Machine Learning**
@@ -37,7 +33,7 @@ Most supervised Machine learning/Deep Learning (ML/DL) based systems are heurist
 
 ## So where does the learning come in?
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*ub-ifcgdi9xgryqvo0\_GRA.png" width="700" height="411" srcSet="https://miro.medium.com/max/552/1\\*ub-ifcgdi9xgryqvo0\_GRA.png 276w, https://miro.medium.com/max/1104/1\\*ub-ifcgdi9xgryqvo0\_GRA.png 552w, https://miro.medium.com/max/1280/1\\*ub-ifcgdi9xgryqvo0\_GRA.png 640w, https://miro.medium.com/max/1400/1\*ub-ifcgdi9xgryqvo0\_GRA.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*ub-ifcgdi9xgryqvo0\_GRA.png" width="700" height="411" srcSet="https://miro.medium.com/max/552/1\\\*ub-ifcgdi9xgryqvo0\_GRA.png 276w, https://miro.medium.com/max/1104/1\\\*ub-ifcgdi9xgryqvo0\_GRA.png 552w, https://miro.medium.com/max/1280/1\\\*ub-ifcgdi9xgryqvo0\_GRA.png 640w, https://miro.medium.com/max/1400/1\*ub-ifcgdi9xgryqvo0\_GRA.png 700w" sizes="700px" role="presentation"/>
 
 Artificial Neural Network
 
@@ -99,7 +95,7 @@ The aforementioned workflow does not allow us to vary the quantum operations, i.
 
 A Variational quantum circuit is a quantum algorithm whose measurement depends on a set of free parameters θ. The quantum algorithm being modeled has a set of expectation values (a scalar) for its input qubits. The free parameters are tuned iteratively to optimize a classical cost function and get an output approximating the expected values \[7]. These are actively used in quantum chemistry, feature embeddings, HHL (model to solve a linear system of equations), etc.
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1054/1\\*ICwHjoejvLgbb8vK\_EwMCQ.png" width="527" height="360" srcSet="https://miro.medium.com/max/552/1\\*ICwHjoejvLgbb8vK\_EwMCQ.png 276w, https://miro.medium.com/max/1054/1\*ICwHjoejvLgbb8vK\_EwMCQ.png 527w" sizes="527px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1054/1\\\*ICwHjoejvLgbb8vK\_EwMCQ.png" width="527" height="360" srcSet="https://miro.medium.com/max/552/1\\\*ICwHjoejvLgbb8vK\_EwMCQ.png 276w, https://miro.medium.com/max/1054/1\*ICwHjoejvLgbb8vK\_EwMCQ.png 527w" sizes="527px" role="presentation"/>
 
 Variational Quantum Circuit \[13]
 
@@ -121,7 +117,7 @@ ML-based algorithms use gradient descent to minimize the cost function. Backprop
 
 > ∇ = 1/2( U(θ+x) - U(θ-x) )
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*MBylLKiAv6i8Si9KDcOu7Q.png" width="700" height="222" srcSet="https://miro.medium.com/max/552/1\\*MBylLKiAv6i8Si9KDcOu7Q.png 276w, https://miro.medium.com/max/1104/1\\*MBylLKiAv6i8Si9KDcOu7Q.png 552w, https://miro.medium.com/max/1280/1\\*MBylLKiAv6i8Si9KDcOu7Q.png 640w, https://miro.medium.com/max/1400/1\*MBylLKiAv6i8Si9KDcOu7Q.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*MBylLKiAv6i8Si9KDcOu7Q.png" width="700" height="222" srcSet="https://miro.medium.com/max/552/1\\\*MBylLKiAv6i8Si9KDcOu7Q.png 276w, https://miro.medium.com/max/1104/1\\\*MBylLKiAv6i8Si9KDcOu7Q.png 552w, https://miro.medium.com/max/1280/1\\\*MBylLKiAv6i8Si9KDcOu7Q.png 640w, https://miro.medium.com/max/1400/1\*MBylLKiAv6i8Si9KDcOu7Q.png 700w" sizes="700px" role="presentation"/>
 
 Parameter Shift Rule \[14]
 
@@ -131,7 +127,7 @@ We can calculate this gradient without knowing the inner workings of the circuit
 
 Various machine learning models transform input data to different feature spaces for feature extraction/classification or further processing. The function Φ used to do this transformation is called a feature map. The crux behind using such a mapping is to make it easier for the segregation of data points in a proper higher-dimensional space. Essentially hidden layers in a neural network up to the last layers extract features/information which can easily be used by the final layer for classification/ regression etc \[6].
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*p88qKlN51yRBeYcOA1bGDg.png" width="700" height="333" srcSet="https://miro.medium.com/max/552/1\\*p88qKlN51yRBeYcOA1bGDg.png 276w, https://miro.medium.com/max/1104/1\\*p88qKlN51yRBeYcOA1bGDg.png 552w, https://miro.medium.com/max/1280/1\\*p88qKlN51yRBeYcOA1bGDg.png 640w, https://miro.medium.com/max/1400/1\*p88qKlN51yRBeYcOA1bGDg.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*p88qKlN51yRBeYcOA1bGDg.png" width="700" height="333" srcSet="https://miro.medium.com/max/552/1\\\*p88qKlN51yRBeYcOA1bGDg.png 276w, https://miro.medium.com/max/1104/1\\\*p88qKlN51yRBeYcOA1bGDg.png 552w, https://miro.medium.com/max/1280/1\\\*p88qKlN51yRBeYcOA1bGDg.png 640w, https://miro.medium.com/max/1400/1\*p88qKlN51yRBeYcOA1bGDg.png 700w" sizes="700px" role="presentation"/>
 
 Feature Map \[15]
 
@@ -139,7 +135,7 @@ Support vector machine (SVM) is defined by Analytics Vidhya as follows \[10]:
 
 > “In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is the number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well”
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*n3f9Nm0vi-21-\_A0\_VJrdw.png" width="700" height="680" srcSet="https://miro.medium.com/max/552/1\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 276w, https://miro.medium.com/max/1104/1\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 552w, https://miro.medium.com/max/1280/1\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 640w, https://miro.medium.com/max/1400/1\*n3f9Nm0vi-21-\_A0\_VJrdw.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png" width="700" height="680" srcSet="https://miro.medium.com/max/552/1\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 276w, https://miro.medium.com/max/1104/1\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 552w, https://miro.medium.com/max/1280/1\\\*n3f9Nm0vi-21-\_A0\_VJrdw.png 640w, https://miro.medium.com/max/1400/1\*n3f9Nm0vi-21-\_A0\_VJrdw.png 700w" sizes="700px" role="presentation"/>
 
 SVM \[16]
 
@@ -151,13 +147,13 @@ The maximal margin hyperplane (boundary to separate data points according to cla
 
 During the data encoding/state preparation phase classical data is encoded into the quantum circuit using various algorithms. In angle encoding data is encoded as the angle of the rotation gates. This encoding essentially maps the classical data into a higher dimension of an exponentially large Hilbert space. Thus a linear gate can transform data in a non-linear fashion to a higher data plane. Thus encoding classical data into quantum states is considered a quantum feature map \[11].
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*6PIgMlLsky-f4pF9\_ShxrA.png" width="700" height="172" srcSet="https://miro.medium.com/max/552/1\\*6PIgMlLsky-f4pF9\_ShxrA.png 276w, https://miro.medium.com/max/1104/1\\*6PIgMlLsky-f4pF9\_ShxrA.png 552w, https://miro.medium.com/max/1280/1\\*6PIgMlLsky-f4pF9\_ShxrA.png 640w, https://miro.medium.com/max/1400/1\*6PIgMlLsky-f4pF9\_ShxrA.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*6PIgMlLsky-f4pF9\_ShxrA.png" width="700" height="172" srcSet="https://miro.medium.com/max/552/1\\\*6PIgMlLsky-f4pF9\_ShxrA.png 276w, https://miro.medium.com/max/1104/1\\\*6PIgMlLsky-f4pF9\_ShxrA.png 552w, https://miro.medium.com/max/1280/1\\\*6PIgMlLsky-f4pF9\_ShxrA.png 640w, https://miro.medium.com/max/1400/1\*6PIgMlLsky-f4pF9\_ShxrA.png 700w" sizes="700px" role="presentation"/>
 
 Data Embedding in Hilbert Space \[17]
 
 ## Quantum Kernel Function
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*S4JOQqpqEV4rNbnaZp2uPg.png" width="700" height="305" srcSet="https://miro.medium.com/max/552/1\\*S4JOQqpqEV4rNbnaZp2uPg.png 276w, https://miro.medium.com/max/1104/1\\*S4JOQqpqEV4rNbnaZp2uPg.png 552w, https://miro.medium.com/max/1280/1\\*S4JOQqpqEV4rNbnaZp2uPg.png 640w, https://miro.medium.com/max/1400/1\*S4JOQqpqEV4rNbnaZp2uPg.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*S4JOQqpqEV4rNbnaZp2uPg.png" width="700" height="305" srcSet="https://miro.medium.com/max/552/1\\\*S4JOQqpqEV4rNbnaZp2uPg.png 276w, https://miro.medium.com/max/1104/1\\\*S4JOQqpqEV4rNbnaZp2uPg.png 552w, https://miro.medium.com/max/1280/1\\\*S4JOQqpqEV4rNbnaZp2uPg.png 640w, https://miro.medium.com/max/1400/1\*S4JOQqpqEV4rNbnaZp2uPg.png 700w" sizes="700px" role="presentation"/>
 
 Quantum Kernel \[15]
 
@@ -167,7 +163,7 @@ In a Support Vector Machine, the maximal margin boundary is calculated implicitl
 
 Neural networks form the basis of many deep learning models. They enjoy widespread use in the industry and research. Creating quantum circuits analogous to Neural networks is a key step for progressing and finding the limits of Quantum Machine Learning. Below is the circuit diagram of a general design of a QNN circuit.
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\*nmTr3o6Yk7oR6GzDlGFDDw.png" width="700" height="337" srcSet="https://miro.medium.com/max/552/1\\*nmTr3o6Yk7oR6GzDlGFDDw.png 276w, https://miro.medium.com/max/1104/1\\*nmTr3o6Yk7oR6GzDlGFDDw.png 552w, https://miro.medium.com/max/1280/1\\*nmTr3o6Yk7oR6GzDlGFDDw.png 640w, https://miro.medium.com/max/1400/1\*nmTr3o6Yk7oR6GzDlGFDDw.png 700w" sizes="700px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/1400/1\\\*nmTr3o6Yk7oR6GzDlGFDDw.png" width="700" height="337" srcSet="https://miro.medium.com/max/552/1\\\*nmTr3o6Yk7oR6GzDlGFDDw.png 276w, https://miro.medium.com/max/1104/1\\\*nmTr3o6Yk7oR6GzDlGFDDw.png 552w, https://miro.medium.com/max/1280/1\\\*nmTr3o6Yk7oR6GzDlGFDDw.png 640w, https://miro.medium.com/max/1400/1\*nmTr3o6Yk7oR6GzDlGFDDw.png 700w" sizes="700px" role="presentation"/>
 
 QNN General Architecture \[18]
 
@@ -177,7 +173,7 @@ As we can see from the circuit, we have the starting states initialized to zero.
 
 A Variational Quantum classifier can be thought of as a type of QNN although both terms are used interchangeably. The inherent architecture is same as the QNN. The goal of this QML model is to classify data points. Classical data is encoded using angle encoding. As discussed above this encoding maps the data to a higher-dimensional Hilbert space. Here it will be easier to separate the data. Then the variational circuit which is a set of linear layers is applied. Its goal is to create a hidden layer-based architecture that can map the data points in the Hilbert space to their respective classes. Initially, this mapping will be randomized but iteratively learned by the variational circuit.
 
-<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/832/1\\*Knn4dBh6U8VSAdkK8zWKDw.png" width="416" height="277" srcSet="https://miro.medium.com/max/552/1\\*Knn4dBh6U8VSAdkK8zWKDw.png 276w, https://miro.medium.com/max/832/1\*Knn4dBh6U8VSAdkK8zWKDw.png 416w" sizes="416px" role="presentation"/>
+<img alt="" class="ef es eo ex w" src="https://miro.medium.com/max/832/1\\\*Knn4dBh6U8VSAdkK8zWKDw.png" width="416" height="277" srcSet="https://miro.medium.com/max/552/1\\\*Knn4dBh6U8VSAdkK8zWKDw.png 276w, https://miro.medium.com/max/832/1\*Knn4dBh6U8VSAdkK8zWKDw.png 416w" sizes="416px" role="presentation"/>
 
 Variational Model Architecture \[19]
 
@@ -221,3 +217,9 @@ Quantum machine learning is still in its dormant stages. It is a subject heavily
 \[17] <https://arxiv.org/pdf/2001.03622.pdf>\
 \[18] <https://arxiv.org/pdf/1804.00633v1.pdf>\
 \[19] <https://arxiv.org/pdf/1804.11326.pdf>
+
+### [Reposted from my Medium Blog](https://kunal-kasodekar.medium.com/a-look-into-quantum-machine-learning-f1c883c1a056)
+
+# License
+
+All rights reserved. Others cannot copy, distribute, or perform your work without your permission (or as permitted by fair use).
