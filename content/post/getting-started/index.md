@@ -22,8 +22,6 @@ image:
   placement: 2
   preview_only: false
 ---
-
-
 ![](https://miro.medium.com/max/2000/1*BAQgdaXXUKSPE0iw4Kso9Q.jpeg)
 
 # The Essence Of Quantum Computing
@@ -68,7 +66,7 @@ Deep learning (DL) models make use of highly dense neural networks with multiple
 
 # Federated Learning
 
-***Problem with data**:* Generally speaking to train a machine learning model we need to procure the data points, do some exploratory data analysis, choose the model, and then train it. One of the most important steps in this whole process from a practitioner’s POV is procuring clean, labeled data. As models nowadays keep on growing in size with millions of data points and a large number of parameters, procuring all this data for our single training machine or GPU cluster becomes impractical.
+**\*Problem with data**:* Generally speaking to train a machine learning model we need to procure the data points, do some exploratory data analysis, choose the model, and then train it. One of the most important steps in this whole process from a practitioner’s POV is procuring clean, labeled data. As models nowadays keep on growing in size with millions of data points and a large number of parameters, procuring all this data for our single training machine or GPU cluster becomes impractical.
 
 ***Privacy***: Real scale machine learning models require a huge amount of well-represented data with a minimum bias for creating an efficient real-world solution. However many of the times this data is private/sensitive and thus data leaks can prove to be detrimental. Many real-world problems require user data from edge devices like smartphones, health-ware, IOT based edge devices, etc (eg: Google uses keyboard input data for improving its word prediction model). However, the sensitive nature of this data and the multiple adversaries at each step make it impossible to transfer it safely to the main server for training. No one likes to share their personal data, so many users opt-out of data sharing as a privacy measure. In other cases, companies and research institutes will avoid sharing sensitive data to prevent leaks to competitors/uninvolved parties. Such data may include the patient’s medical history, research data, companies’ financial data, etc.
 
@@ -132,6 +130,12 @@ It may seem that in terms of raw computing power Quantum Computing surpasses Fed
 \[6] <https://www.austinchronicle.com/screens/2019-04-19/quantum-computing-101-a-beginners-guide-to-the-mind-bending-new-technology/>
 
 \[7] <https://blog.fastforwardlabs.com/2018/11/14/federated-learning-distributed-machine-learning-with-data-locality-and-privacy.html>
+
+
+
+### [Reposted from my Medium Blog](https://kunal-kasodekar.medium.com/a-look-into-quantum-machine-learning-f1c883c1a056)
+
+
 
 # License
 
