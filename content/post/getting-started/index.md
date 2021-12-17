@@ -132,11 +132,7 @@ It may seem that in terms of raw computing power Quantum Computing surpasses Fed
 
 \[7] <https://blog.fastforwardlabs.com/2018/11/14/federated-learning-distributed-machine-learning-with-data-locality-and-privacy.html>
 
-
-
-### [Reposted from my Medium Blog](https://kunal-kasodekar.medium.com/a-look-into-quantum-machine-learning-f1c883c1a056)
-
-
+### [Reposted from my Medium Blog](https://kunal-kasodekar.medium.com/quantum-machine-learning-vs-federated-learning-66430207214)
 
 # License
 
