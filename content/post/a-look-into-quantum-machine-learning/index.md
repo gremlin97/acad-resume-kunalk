@@ -4,6 +4,14 @@ subtitle: A simple overview on the current state of Quantum Machine Learning.
 date: 2021-12-17T07:43:10.872Z
 draft: false
 featured: false
+authors:
+  - KunalKasodekar
+categories:
+  - QuantumComputing
+  - QuantumMachineLearning
+  - VariationalCircuits
+  - MachineLearning
+  - MicrosoftQuantum
 image:
   filename: featured
   focal_point: Smart
