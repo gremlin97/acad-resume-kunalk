@@ -5,18 +5,20 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Skills"
+title = "TECHNICAL Skills"
 subtitle = ""
 +++
 
-| Programming Languages   | Framework and Tools  | Platforms  |
+| Languages   | ML Framework and Tools  | Cloud Platforms and Other Skills  | 
 |---|---|---|
-| Python  | Qiskit  | Azure  |
-| C  | Ethereum  | AWS  |
-| C++  | NodeJs  | Docker  |
-| Javascript  | Git  |  |
-| Golang | PyTorch  |  |
-|   | Flask  |  |
-|   | Pandas  |  |
-|   | Latex  |  |
-|   | Keras  |  |
+| Python  | PyTorch  | Azure  |
+| C++  | Pandas  | AWS  |
+| SQL  | Keras  | Docker  |
+| Javascript  | Tensorflow  | Qiskit |
+| Golang | OpenCV  | Ethereum |
+| Typescript  | Numpy  | Blender |
+| Bash  | Tensorflow  | Unreal Engine |
+| R | Terraform  | DVC |
+|   | TorchGeo  | QGIS |
+|   | CUDA  | HuggingFace |
+|   |  | GEE |
